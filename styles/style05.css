@@ -1,0 +1,46 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+#mockup {
+    width: 1135px;
+    height: 451px;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.05.png?token=ANYIHQQUCQINHFTZLGS7QCK7BQN6W);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 10;
+    pointer-events: none;
+}
+
+footer {
+    padding: 40px;
+    background-color: grey;
+    max-width: calc(1135px - 40px - 40px);
+    min-height: calc(451px - 40px - 40px);
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: 40% repeat(4, 1fr);
+    grid-gap: 30px;;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    text-decoration: none;
+}
