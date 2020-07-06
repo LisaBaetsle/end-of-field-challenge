@@ -15,8 +15,8 @@ Interface 05 complex:  This is an isolated footer of a website. With a variety o
 ## Tech/Framework used
 
 Made with Visual Studio Code  
-Interface simple 01: No SASS, No frameworks, just custom css.
-Interface  complex 05: No frameworks, Yes SASS
+Interface 01 simple: No SASS, No frameworks, just custom css.  
+Interface 05 complex: No frameworks, Yes SASS
 
 ## Author and Rights
 
@@ -31,6 +31,6 @@ https://github.com/becodeorg/gnt-yu-3-21/blob/master/1.The-Field/5.End-of-Field/
 https://lisabaetsle.github.io/end-of-field-challenge/  
 https://lisabaetsle.github.io/end-of-field-challenge/interface05
 
-## Thanks
+## Thanks to
 
 BeCode
