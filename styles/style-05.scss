@@ -65,6 +65,7 @@ ul {
 
 .submenu {
     padding-bottom: 30px;
+
     a {
         font-size: 16px;
         color: $color-grey;
@@ -128,18 +129,19 @@ ul {
         grid-column: 1 / 5;
     }
 
-
     .copyright {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding-top: 128px;
-        
+
         p {
             text-align: left;
+            margin-left: -10px;
         }
 
         .text {
             padding-right: 36px;
+
             p {
                 text-align: right;
             }
@@ -157,5 +159,4 @@ ul {
     .main-menu {
         grid-column: 1;
     }
-
 }

@@ -126,6 +126,7 @@ ul a:hover {
   }
   .copyright p {
     text-align: left;
+    margin-left: -10px;
   }
   .copyright .text {
     padding-right: 36px;
