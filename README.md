@@ -10,12 +10,13 @@ We need to combine what we have learned in the first month of the BeCode trainin
 ## Details
 
 Interface 01 simple: This is a simple interface of an image and some text. This one is not responsive.  
-Interface 05 complex:  
+Interface 05 complex:  This is an isolated footer of a website. With a variety of links. I made it responsive.
 
 ## Tech/Framework used
 
 Made with Visual Studio Code  
-Interface 01: no SASS, no frameworks, just custom css.  
+Interface simple 01: No SASS, No frameworks, just custom css.
+Interface  complex 05: No frameworks, Yes SASS
 
 ## Author and Rights
 
