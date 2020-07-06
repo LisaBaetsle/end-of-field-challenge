@@ -4,7 +4,7 @@ Rebuild interface 01 (simple) and 05 (complex) as a test.
 
 ## Motivation
 
-We made this project to test our knowledge of html and css and see if we are competent enough to rebuild a given interface.  
+We made this project to test our knowledge of html and css and see if we are competent enough to rebuild a given interface.
 We need to combine what we have learned in the first month of the BeCode training.  
 
 ## Details
@@ -19,7 +19,7 @@ Interface 01: no SASS, no frameworks, just custom css.
 
 ## Author and Rights
 
-Developed by Victor Ortega for BeCode(https://becode.org/)
+Developed by Lisa Baetsle for BeCode(https://becode.org/)
 
 ## Link to the repo of the assignement
 
