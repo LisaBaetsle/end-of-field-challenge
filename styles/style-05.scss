@@ -1,6 +1,7 @@
 $bg-color: #222220;
 $color-white: #fdfdfd;
 $color-grey: #777777;
+$color-yellow: #FFE600;
 
 
 * {
@@ -44,6 +45,10 @@ ul {
     a {
         text-decoration: none;
     }
+
+    a:hover {
+        color: $color-yellow;
+    }
 }
 
 .main-menu {
@@ -76,6 +81,10 @@ ul {
         a {
             color: $color-white;
         }
+
+        a:hover {
+            color: $color-yellow;
+        }
     }
 }
 
@@ -92,12 +101,20 @@ ul {
         margin: 0;
         padding: 0 0 2px 0;
         text-align: center;
-        font-size: 14px;
     }
 
-    span {
-        color: $color-grey;
+    a {
+        text-decoration: none;
+        color: $color-grey
     }
+
+    a:hover {
+        color: $color-yellow;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
 }
 
 @media screen and (min-width: 960px) {
