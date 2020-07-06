@@ -114,19 +114,20 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-
-}
-
-@media screen and (min-width: 960px) {
     * {
         text-align: left;
     }
 
     .grid {
         display: grid;
-        grid-template-columns: 40% repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 30px;
     }
+
+    .main-menu {
+        grid-column: 1 / 5;
+    }
+
 
     .copyright {
         display: grid;
@@ -144,4 +145,17 @@ ul {
             }
         }
     }
+}
+
+@media screen and (min-width: 960px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 40% repeat(4, 1fr);
+        grid-gap: 30px;
+    }
+
+    .main-menu {
+        grid-column: 1;
+    }
+
 }
