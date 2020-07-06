@@ -1,6 +1,11 @@
+$bg-color: #222220;
+$color-white: #fdfdfd;
+$color-grey: #777777;
+
+
 * {
     font-family: 'Rubik', sans-serif;
-    color: white;
+    color: $color-white;
 }
 
 body {
@@ -9,6 +14,7 @@ body {
     margin: 0;
 }
 
+/*
 #mockup {
     width: 1135px;
     height: 451px;
@@ -20,10 +26,11 @@ body {
     z-index: 10;
     pointer-events: none;
 }
+*/
 
 footer {
     padding: 34px 40px;
-    background-color: #121212;
+    background-color: $bg-color;
     max-width: calc(1135px - 40px - 40px);
     min-height: calc(451px - 34px - 34px);
 }
@@ -59,6 +66,7 @@ ul {
 .submenu {
     a {
         font-size: 16px;
+        color: $color-grey;
     }
 
     li {
@@ -68,13 +76,17 @@ ul {
     li:first-child {
     padding-bottom: 20px;
     padding-top: 4px;
+
+    a {
+        color: $color-white;
+    }
   }
 }
 
 .copyright {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 120px;
+    padding-top: 152px;
 
     .text {
         text-align: right;
@@ -83,5 +95,13 @@ ul {
         font-weight: 500;
         letter-spacing: -1.5px;
     }
-}
 
+    p {
+        margin: 0;
+        padding:0 0 2px 0;
+    }
+
+    span {
+        color: $color-grey;
+    }
+}

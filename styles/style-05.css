@@ -1,6 +1,6 @@
 * {
   font-family: 'Rubik', sans-serif;
-  color: white;
+  color: #fdfdfd;
 }
 
 body {
@@ -9,21 +9,22 @@ body {
   margin: 0;
 }
 
+/*
 #mockup {
-  width: 1135px;
-  height: 451px;
-  background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.05.png?token=ANYIHQQUCQINHFTZLGS7QCK7BQN6W);
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  z-index: 10;
-  pointer-events: none;
+    width: 1135px;
+    height: 451px;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/2.End-of-Field-Challenge/images/normal-res/complex/complex.05.png?token=ANYIHQQUCQINHFTZLGS7QCK7BQN6W);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 10;
+    pointer-events: none;
 }
-
+*/
 footer {
   padding: 34px 40px;
-  background-color: #121212;
+  background-color: #222220;
   max-width: calc(1135px - 40px - 40px);
   min-height: calc(451px - 34px - 34px);
 }
@@ -54,6 +55,7 @@ ul a {
 
 .submenu a {
   font-size: 16px;
+  color: #777777;
 }
 
 .submenu li {
@@ -65,10 +67,14 @@ ul a {
   padding-top: 4px;
 }
 
+.submenu li:first-child a {
+  color: #fdfdfd;
+}
+
 .copyright {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 120px;
+  padding-top: 152px;
 }
 
 .copyright .text {
@@ -77,5 +83,14 @@ ul a {
   font-size: 30px;
   font-weight: 500;
   letter-spacing: -1.5px;
+}
+
+.copyright p {
+  margin: 0;
+  padding: 0 0 2px 0;
+}
+
+.copyright span {
+  color: #777777;
 }
 /*# sourceMappingURL=style-05.css.map */
